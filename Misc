@@ -12,3 +12,14 @@ wget --user-agent=Mozilla/5.0 --save-cookies cookies.txt --post-data="email=$EMA
 shell
 ====
 type - to check alias 
+
+
+
+cd nmap-7.90
+./configure
+make
+su root
+make install
+
+
+alias nmap='/cygdrive/c/Program\ Files\ \(x86\)/Nmap/nmap.exe'
