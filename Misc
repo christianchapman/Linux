@@ -25,3 +25,8 @@ make install
 
 
 alias nmap='/cygdrive/c/Program\ Files\ \(x86\)/Nmap/nmap.exe'
+
+
+package mgr
+############
+dpkg -l
