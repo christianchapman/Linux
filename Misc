@@ -4,7 +4,9 @@ saving cookies - loading cookies
 ################################
 --load-cookies cookies.txt
 
-
+check firewall in Ubuntu
+#########################
+ufw app list 
 
 wget --user-agent=Mozilla/5.0 --save-cookies cookies.txt --post-data="email=$EMAIL&password=$PASSWRD" --no-check-certificate https://www.#####.com/login
 
