@@ -30,3 +30,8 @@ alias nmap='/cygdrive/c/Program\ Files\ \(x86\)/Nmap/nmap.exe'
 package mgr
 ############
 dpkg -l
+
+services
+=========
+old = service
+new systemctl
