@@ -29,9 +29,9 @@ alias nmap='/cygdrive/c/Program\ Files\ \(x86\)/Nmap/nmap.exe'
 
 package mgr
 ############
-dpkg -l
+dpkg -l (debian, ubuntu)
 
 services
 =========
-old = service
-new systemctl
+old = service (initd - centos 6)
+new systemctl (systemd - centos 7)
