@@ -35,3 +35,7 @@ services
 =========
 old = service (initd - centos 6)
 new systemctl (systemd - centos 7)
+
+DNS Stub
+========
+systemd-resolved -> supports DOT,DOH and DNS-Sec
